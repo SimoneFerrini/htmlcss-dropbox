@@ -173,3 +173,21 @@
     max-height: 1.5em;
     width: 30%;
 }
+/*/sezione team*/
+
+
+/*sezione img e paragrafo*/
+.img-paragrafo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.flex-paragrafo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+    padding: 1em;
+}
