@@ -114,6 +114,7 @@
 .utenti-centrato{
     text-align: center;
     border-bottom: 1px solid lightgrey;
+    padding: 0.5em;
 }
 
 .testo-colonna{
@@ -140,7 +141,35 @@
     border:1px solid grey;
 }
 
+/*/sezione colonne*/
 
 
 
 
+/*sezione team*/
+.team-sezione{
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+
+    max-width: 65%;
+}
+
+.corpo-team{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+}
+
+.riga-team{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1em;
+    padding: 1em;
+}
+
+.riga-team button{
+    max-height: 1.5em;
+    width: 30%;
+}
