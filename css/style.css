@@ -216,4 +216,66 @@
     gap:0.7em;
 
     max-width: 30%;
+    margin-bottom: 3em;
 }
+/*/sezione business*/
+
+
+
+
+/*sezione end top main*/
+.titolo-endtop-main{
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    max-width: 55%;
+}
+
+.margin-bottom-endtop{
+    margin-bottom: 3em;
+}
+/*/inizio main*/
+
+
+
+
+/*partners*/
+.container-partners{
+    display: flex;
+    flex-direction: row;
+    
+    width: 100vw;
+
+}
+
+.partners{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    width: calc(100% / 3);
+
+}
+
+.single-partner{
+    width: 50%;
+    height:50%;
+    
+}
+
+.descrizione-partner{
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+    padding: 1em;
+
+    min-width: 20%;
+    max-width: calc(100% / 3);
+    background-color: lightgrey;
+}
+
+.descrizione-partner img{
+    width: 10em;
+    height: 5em;
+}
+/*/sezione partner*/
+
