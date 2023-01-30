@@ -191,3 +191,29 @@
     gap:20px;
     padding: 1em;
 }
+/*/sezione img e paragrafo*/
+
+
+
+/*sezione business*/
+.titolo-business{
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.card-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 3em;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:0.7em;
+
+    max-width: 30%;
+}
