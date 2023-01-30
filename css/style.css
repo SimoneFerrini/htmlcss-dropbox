@@ -6,6 +6,9 @@
 .header-bgcolor{
     background-color: rgb(134, 175, 201);
 }
+
+
+
 /*navbar*/
 .navbar{
     height: 3em;
@@ -45,6 +48,10 @@
     padding-top: 6em;
 }
 
+.container-centered-header-footer h1{
+    font-size: 3em;
+}
+
 .header-p-img{
     display: flex;
     flex-direction: row;
@@ -62,6 +69,80 @@
     gap: 5px;
 }
 /*fine header e navbar*/
+
+
+
+
+
+
+/*inizio main*/
+.container-centered-main{
+   display: flex;
+   flex-direction: column;
+   gap:3em;
+   
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:6em 5%;
+}
+
+.checkbox{
+    display: flex;
+    gap:15%;
+    
+}
+
+/*sezione colonne*/
+.columns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.bordo-colonna{
+    width: 30%;
+    border: 1px solid lightgrey;
+}
+
+.corpo-colonna{
+    display: flex;
+    flex-direction: column;
+}
+
+.utenti-centrato{
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+}
+
+.testo-colonna{
+    display: flex;
+    flex-direction: column;
+    padding:2em 1em;
+    gap:2em;
+}
+
+.colonna-sezione{
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+}
+
+.riga-colonna{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.small-hr{
+    width:20%;
+    border:1px solid grey;
+}
+
+.span-colonna-inf2{
+    max-width: 20%;
+}
 
 
 
