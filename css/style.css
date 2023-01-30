@@ -41,14 +41,14 @@
 
 
 /*header*/
-.container-centered-header-footer{
+.container-centered-header{
     width:70%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 6em;
 }
 
-.container-centered-header-footer h1{
+.container-centered-header h1{
     font-size: 3em;
 }
 
@@ -279,3 +279,95 @@
 }
 /*/sezione partner*/
 
+
+
+/*parte inferiore main*/
+.bg-lightblue{
+    background-color: rgb(129, 180, 219);
+}
+
+.flex-blue-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-center-bottom-main{
+     width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:6em 5%;
+}
+
+.flex-blue-section h2{
+    font-size: 2.5em;
+    width: 50%;
+}
+
+.flex-blue-section button{
+    width: 35%;
+}
+
+.faq-row{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 3em 0;
+}
+
+.celle-faq{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/*/fine parte inferiore main*/
+
+
+
+
+/*footer*/
+.footer-style{
+    background-color: black;
+    color: white;
+
+}
+
+.container-centered-footer{
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3em;
+}
+
+footer .small-hr{
+    border-color: white;
+}
+
+.vertical-ul{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   gap: 20px;
+   padding: 2em;
+   
+    list-style-type: none;
+
+}
+
+.horizontal-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    list-style-type: none;
+}
+
+.vertical-ul-inner{
+    display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   gap: 10px;
+   
+    list-style-type: none;
+}
