@@ -1,0 +1,68 @@
+/*creo questa classe per non modificare tag body*/
+.font{
+    font-family: sans-serif;
+}
+
+.header-bgcolor{
+    background-color: rgb(134, 175, 201);
+}
+/*navbar*/
+.navbar{
+    height: 3em;
+    width: 100%;
+    /*test*/
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+    background-color: white;
+    
+}
+
+.nav-list{
+    width: 20%;
+    /*test*/
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    list-style-type: none;
+}
+/*/navbar*/
+
+
+/*header*/
+.container-centered-header-footer{
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 6em;
+}
+
+.header-p-img{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    padding-top: 2em;
+}
+
+.header-p{
+    max-width:30%;
+    /*test*/
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+}
+/*fine header e navbar*/
+
+
+
+
