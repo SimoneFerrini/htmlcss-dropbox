@@ -398,9 +398,16 @@ width: 30%;
     background-color: rgb(109, 214, 109) ;
 }
 
+#designit:hover{
+    border: 20px solid rgb(182, 255, 182);
+}
 
 #asu{
     background-color: rgb(72, 11, 11) ;
+}
+
+#asu:hover{
+    border: 20px solid rgb(109, 52, 52) ;
 }
 
 
@@ -408,9 +415,17 @@ width: 30%;
     background-color: dodgerblue ;
 }
 
+#uf:hover{
+    border: 20px solid rgb(119, 179, 238) ;
+}
+
 
 #topps{
     background-color: red ;
+}
+
+#topps:hover{
+    border: 20px solid rgb(246, 105, 105) ;
 }
 
 
@@ -418,19 +433,36 @@ width: 30%;
     background-color: rgb(136, 0, 0) ;
 }
 
+#worldbr:hover{
+    border:20px solid rgb(139, 81, 81) ;
+}
+
 
 #hearst{
     background-color: rgb(213, 196, 243) ;
 }
+
+#hearst:hover{
+    border:20px solid  rgb(242, 235, 255) ;
+}
+
 
 
 #lonelyplanet{
     background-color: navy ;
 }
 
+#lonelyplanet:hover{
+    border:20px solid rgb(59, 59, 168) ;
+}
+
 
 #ccoutdoor{
     background-color: yellow ;
+}
+
+#ccoutdoor:hover{
+    border:20px solid rgb(250, 250, 168) ;
 }
 
 
