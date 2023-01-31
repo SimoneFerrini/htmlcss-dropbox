@@ -21,6 +21,12 @@
 }
 
 
+.btn-secondary{
+    background-color: transparent;
+    border: 1px solid grey;
+    color: grey;
+}
+
 .fa-arrow-down{
     font-size: 3em;
     margin-bottom: 15px;
@@ -267,7 +273,12 @@ width: 30%;
     gap:20px;
     padding: 1em;
 }
+
 /*/sezione img e paragrafo*/
+.img-paragrafo img{
+    width: 600px;
+    
+}
 
 
 
