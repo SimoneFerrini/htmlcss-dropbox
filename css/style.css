@@ -129,7 +129,7 @@
     width:70%;
     margin-left: auto;
     margin-right: auto;
-    padding:6em 5%;
+    padding:8em 5% 6em 5%;
 }
 
 .checkbox{
@@ -383,7 +383,7 @@
     width:70%;
     margin-left: auto;
     margin-right: auto;
-    padding: 3em;
+    padding: 3em 0;
 }
 
 footer .small-hr{
