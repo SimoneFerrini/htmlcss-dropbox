@@ -212,10 +212,19 @@
 .team-sezione{
     display: flex;
     flex-direction: column;
-    gap:1em;
+    justify-content: space-between;
+    gap:4em;
 
     max-width: 65%;
 }
+
+
+.team-sezione-inner{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
 
 .corpo-team{
     display: flex;
@@ -231,9 +240,14 @@
     padding: 1em;
 }
 
+
+.container-btn-team{
+width: 30%;
+}
+
 .riga-team button{
-    max-height: 1.5em;
-    width: 30%;
+    
+    width: 100%;
 }
 /*/sezione team*/
 
