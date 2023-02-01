@@ -481,8 +481,11 @@ width: 30%;
     padding: 1em;
     flex-grow: 1;
 
+    overflow: auto;
+
     background-color: lightgrey;
     width: calc(100vw / 3);
+    height: calc(100vw / 3);
 }
 
 .descrizione-partner img{
@@ -542,7 +545,7 @@ width: 30%;
 .faq-container-espandibile{
     height: 2.5em;
     overflow: hidden;
-    transition: height 2s;
+    transition: height 0.4s;
 }
 
 .faq-container-espandibile:hover{
