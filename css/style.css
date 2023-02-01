@@ -51,7 +51,7 @@
     width: 100%;
     /*test*/
     
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
 
