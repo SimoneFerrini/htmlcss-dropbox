@@ -68,6 +68,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    border-bottom: 5px solid transparent;
     
 
 }
@@ -77,6 +79,7 @@
     justify-content: center;
     align-items: center;
     padding: 1em 0.5em;
+    border-bottom: 5px solid transparent;
 
 }
 
