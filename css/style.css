@@ -145,12 +145,12 @@
 
 .header-img{
     position: relative;
+    width: 65%;
 }
 
 
 .header-img img{
-    width: 700px;
-    height: auto;
+    width: 100%;
 
     position: absolute;
     left: 0;
