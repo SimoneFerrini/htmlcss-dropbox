@@ -68,7 +68,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1em 0.5em;
+    
 
 }
 
@@ -95,6 +95,7 @@
 
 .nav-list{
     width: 40%;
+    height: 100%;
     /*test*/
 
     display: flex;
