@@ -1,4 +1,9 @@
 /*creo questa classe per non modificare tag body*/
+
+html{
+    scroll-behavior: smooth;
+}
+
 .font{
     font-family: sans-serif;
 }
